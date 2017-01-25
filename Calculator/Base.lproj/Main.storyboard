@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -49,6 +49,9 @@
                                                         <exclude reference="n7H-fq-RUT"/>
                                                     </mask>
                                                 </variation>
+                                                <connections>
+                                                    <action selector="buttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ssu-GK-IXY"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b1G-ev-SUK">
                                                 <rect key="frame" x="94" y="0.0" width="93" height="93"/>
@@ -60,6 +63,9 @@
                                                 <variation key="heightClass=compact">
                                                     <fontDescription key="fontDescription" name="WorkSans-ExtraLight" family="Work Sans" pointSize="30"/>
                                                 </variation>
+                                                <connections>
+                                                    <action selector="buttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="w8b-JI-AgB"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9g7-EJ-Haf">
                                                 <rect key="frame" x="188" y="0.0" width="93" height="93"/>
@@ -71,6 +77,9 @@
                                                 <variation key="heightClass=compact">
                                                     <fontDescription key="fontDescription" name="WorkSans-ExtraLight" family="Work Sans" pointSize="30"/>
                                                 </variation>
+                                                <connections>
+                                                    <action selector="buttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="pVR-Yn-vi3"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kb8-Kh-WRu">
                                                 <rect key="frame" x="282" y="0.0" width="93" height="93"/>
@@ -82,6 +91,9 @@
                                                 <variation key="heightClass=compact">
                                                     <fontDescription key="fontDescription" name="WorkSans-ExtraLight" family="Work Sans" pointSize="30"/>
                                                 </variation>
+                                                <connections>
+                                                    <action selector="buttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Tde-Yv-Yn9"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -104,6 +116,9 @@
                                                         <exclude reference="s4g-Dr-lPb"/>
                                                     </mask>
                                                 </variation>
+                                                <connections>
+                                                    <action selector="buttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Hu7-uR-BKt"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8p4-As-gX7">
                                                 <rect key="frame" x="94" y="0.0" width="93" height="93"/>
@@ -115,6 +130,9 @@
                                                 <variation key="heightClass=compact">
                                                     <fontDescription key="fontDescription" name="WorkSans-ExtraLight" family="Work Sans" pointSize="30"/>
                                                 </variation>
+                                                <connections>
+                                                    <action selector="buttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="HUf-s2-tPL"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OwZ-KS-Gwx">
                                                 <rect key="frame" x="188" y="0.0" width="93" height="93"/>
@@ -126,6 +144,9 @@
                                                 <variation key="heightClass=compact">
                                                     <fontDescription key="fontDescription" name="WorkSans-ExtraLight" family="Work Sans" pointSize="30"/>
                                                 </variation>
+                                                <connections>
+                                                    <action selector="buttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="vID-Rw-tWb"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PPq-G7-WTf">
                                                 <rect key="frame" x="282" y="0.0" width="93" height="93"/>
@@ -137,6 +158,9 @@
                                                 <variation key="heightClass=compact">
                                                     <fontDescription key="fontDescription" name="WorkSans-ExtraLight" family="Work Sans" pointSize="30"/>
                                                 </variation>
+                                                <connections>
+                                                    <action selector="buttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="HRu-fG-M31"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -159,6 +183,9 @@
                                                         <exclude reference="5Kp-XB-5ft"/>
                                                     </mask>
                                                 </variation>
+                                                <connections>
+                                                    <action selector="buttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="PRU-Y3-5jf"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kft-D6-3dj">
                                                 <rect key="frame" x="94" y="0.0" width="93" height="93"/>
@@ -170,6 +197,9 @@
                                                 <variation key="heightClass=compact">
                                                     <fontDescription key="fontDescription" name="WorkSans-ExtraLight" family="Work Sans" pointSize="30"/>
                                                 </variation>
+                                                <connections>
+                                                    <action selector="buttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Cfw-C8-u1W"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qg8-oV-u7C">
                                                 <rect key="frame" x="188" y="0.0" width="93" height="93"/>
@@ -181,6 +211,9 @@
                                                 <variation key="heightClass=compact">
                                                     <fontDescription key="fontDescription" name="WorkSans-ExtraLight" family="Work Sans" pointSize="30"/>
                                                 </variation>
+                                                <connections>
+                                                    <action selector="buttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lgC-75-XqR"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lNL-h1-dpX">
                                                 <rect key="frame" x="282" y="0.0" width="93" height="93"/>
@@ -192,6 +225,9 @@
                                                 <variation key="heightClass=compact">
                                                     <fontDescription key="fontDescription" name="WorkSans-ExtraLight" family="Work Sans" pointSize="30"/>
                                                 </variation>
+                                                <connections>
+                                                    <action selector="buttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5WK-jq-1DD"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -214,6 +250,9 @@
                                                         <exclude reference="IMo-Hl-vbf"/>
                                                     </mask>
                                                 </variation>
+                                                <connections>
+                                                    <action selector="buttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="d9e-UI-joh"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R1K-6R-PmS">
                                                 <rect key="frame" x="94" y="0.0" width="93" height="93"/>
@@ -225,6 +264,9 @@
                                                 <variation key="heightClass=compact">
                                                     <fontDescription key="fontDescription" name="WorkSans-ExtraLight" family="Work Sans" pointSize="30"/>
                                                 </variation>
+                                                <connections>
+                                                    <action selector="buttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Jn0-Bf-rGy"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MnZ-DQ-Rn6">
                                                 <rect key="frame" x="188" y="0.0" width="93" height="93"/>
@@ -236,6 +278,9 @@
                                                 <variation key="heightClass=compact">
                                                     <fontDescription key="fontDescription" name="WorkSans-ExtraLight" family="Work Sans" pointSize="30"/>
                                                 </variation>
+                                                <connections>
+                                                    <action selector="buttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fXe-9a-SNP"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pGg-JC-FjL">
                                                 <rect key="frame" x="282" y="0.0" width="93" height="93"/>
@@ -247,6 +292,9 @@
                                                 <variation key="heightClass=compact">
                                                     <fontDescription key="fontDescription" name="WorkSans-ExtraLight" family="Work Sans" pointSize="30"/>
                                                 </variation>
+                                                <connections>
+                                                    <action selector="buttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cLh-xw-rK8"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -269,6 +317,9 @@
                                                         <exclude reference="cZh-C6-uN5"/>
                                                     </mask>
                                                 </variation>
+                                                <connections>
+                                                    <action selector="buttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jJw-rg-5Q5"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UOE-pA-uFa">
                                                 <rect key="frame" x="94" y="0.0" width="93" height="93"/>
@@ -280,6 +331,9 @@
                                                 <variation key="heightClass=compact">
                                                     <fontDescription key="fontDescription" name="WorkSans-ExtraLight" family="Work Sans" pointSize="30"/>
                                                 </variation>
+                                                <connections>
+                                                    <action selector="buttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="GBL-DD-iBu"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="atC-oj-nJA">
                                                 <rect key="frame" x="188" y="0.0" width="187" height="93"/>
@@ -291,6 +345,9 @@
                                                 <variation key="heightClass=compact">
                                                     <fontDescription key="fontDescription" name="WorkSans-ExtraLight" family="Work Sans" pointSize="30"/>
                                                 </variation>
+                                                <connections>
+                                                    <action selector="buttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="RQB-MS-2mz"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -370,21 +427,28 @@
                         </constraints>
                         <variation key="default">
                             <mask key="constraints">
-                                <exclude reference="F1f-q5-PA6"/>
                                 <exclude reference="NdM-uO-Lfl"/>
                                 <exclude reference="jEg-Cy-Wfz"/>
+                                <exclude reference="F1f-q5-PA6"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=compact">
                             <mask key="constraints">
+                                <exclude reference="NdM-uO-Lfl"/>
+                                <include reference="jEg-Cy-Wfz"/>
                                 <include reference="F1f-q5-PA6"/>
                                 <exclude reference="ioG-JM-D7c"/>
                                 <exclude reference="yVV-f0-32m"/>
-                                <exclude reference="NdM-uO-Lfl"/>
-                                <include reference="jEg-Cy-Wfz"/>
                             </mask>
                         </variation>
                     </view>
+                    <connections>
+                        <outlet property="icoDivide" destination="Qqe-N6-Peu" id="FAh-M5-WDO"/>
+                        <outlet property="icoMultiplica" destination="BN1-Yc-1L0" id="hGb-Sa-RL5"/>
+                        <outlet property="icoResta" destination="gr7-vr-e3I" id="bw4-OV-TRK"/>
+                        <outlet property="icoSuma" destination="PFE-g2-ud8" id="I7z-NL-yvc"/>
+                        <outlet property="labelResult" destination="5i4-t3-NZr" id="CSX-th-VKG"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
