@@ -156,14 +156,11 @@ class ViewController: UIViewController {
                 }
                 
                 self.result = newResult
-                self.previousResult = nil
-                self.previousOperation = nil
-            } else {
-                self.previousOperation = self.currentOperation
-                self.previousResult = self.result
-                result = nil
             }
+            self.previousResult = self.result
+            result = nil
         }
+        self.previousOperation = self.currentOperation
     }
 
     override var prefersStatusBarHidden: Bool {
